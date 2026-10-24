@@ -1,0 +1,22 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+# Keep local tools, proprietary inputs and analysis scratch out of this repository.
+.agents/
+.codex/
+.aws/
+mega12-analysis/
+analysis-artifacts/
+*.exe
+*.dll
+*.lnk
+*.gpr
+*.rep/
+*.pseudocode.c
